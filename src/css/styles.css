@@ -5,14 +5,50 @@
   |============================
 */
 /* Common styles */
-@import url('./reset.css');
+/* @import url('./reset.css');
 @import url('./base.css');
 @import url('./container.css');
-@import url('./animations.css');
+@import url('./animations.css'); */
 
 /* Sections style */
-@import url('./header.css');
+/* @import url('./header.css');
 @import url('./vite-promo.css');
 @import url('./badges.css');
 @import url('./back-link.css');
-@import url('./footer.css');
+@import url('./footer.css'); */
+
+#datetime-picker {
+  font-size: 16px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  font-size: 16px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.timer {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  font-size: 40px;
+}
+
+.label {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #555;
+}
